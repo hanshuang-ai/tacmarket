@@ -18,7 +18,7 @@
       "label": "TKit",
       "description": "TKit spec workflow skills",
       "repo": "hanshuang-ai/apm-sf",
-      "ref": "v1.0.0"
+      "ref": "main"
     }
   ],
   "plugins": [
@@ -559,7 +559,7 @@
     {
       "name": "tc-brainstorm",
       "description": "需要深度脑暴设计一个功能时使用。探索项目上下文、逐步澄清需求、提出 2-3 种方案并附带权衡对比、逐节审批后写出 spec-kit 标准的 spec.md。批准后交给 /tc-quick 快速计划并实现。",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "tags": [
         "claude",
         "skills",
@@ -572,8 +572,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brainstorm",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -592,8 +592,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-bootstrap",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -612,8 +612,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-migrate",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -632,8 +632,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-scan",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -652,8 +652,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-validate",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -672,8 +672,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-patch",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -692,8 +692,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-report",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -712,8 +712,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-switch",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -732,8 +732,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-verify",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -752,8 +752,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-code-template",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -772,8 +772,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-e2e",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -792,8 +792,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-flow",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -812,8 +812,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-init",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -832,8 +832,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-load-constitution",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -852,8 +852,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-quick",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -872,8 +872,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -892,8 +892,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess-md",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -912,8 +912,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-review",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -932,8 +932,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-systematic-debugging",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -952,8 +952,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-tdd",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -972,8 +972,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-uninstall",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -992,8 +992,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-workflow",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -1012,8 +1012,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-plans",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     },
     {
@@ -1032,8 +1032,8 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-skills",
-        "ref": "v1.0.0",
-        "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
+        "ref": "main",
+        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
       }
     }
   ]

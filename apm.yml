@@ -324,7 +324,7 @@ marketplace:
     description: "需要深度脑暴设计一个功能时使用。探索项目上下文、逐步澄清需求、提出 2-3 种方案并附带权衡对比、逐节审批后写出 spec-kit 标准的 spec.md。批准后交给 /tc-quick 快速计划并实现。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-brainstorm
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -336,7 +336,7 @@ marketplace:
     description: 用于生成针对现有代码库量身定制的 spec-kit 配置
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-brownfield-bootstrap
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -348,7 +348,7 @@ marketplace:
     description: "用于为现有功能逆向工程Spec, 从而让功能可以被逐步采用SDD"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-brownfield-migrate
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -360,7 +360,7 @@ marketplace:
     description: "用于自动发现现有代码库的项目结构、技术栈、框架和架构模式"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-brownfield-scan
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -372,7 +372,7 @@ marketplace:
     description: 用于验证 spec-kit 配置是否符合实际的项目结构和规范
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-brownfield-validate
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -384,7 +384,7 @@ marketplace:
     description: "用于精准更新 spec.md、plan.md 和 tasks.md 以解决报告的 bug"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-bugfix-patch
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -396,7 +396,7 @@ marketplace:
     description: "用于捕获在实现过程中发现的 bug，并将其追溯到相关的规格、计划和任务产物"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-bugfix-report
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -408,7 +408,7 @@ marketplace:
     description: 用于切换到不同的 bug 修复上下文并检出目标功能分支
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-bugfix-switch
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -420,7 +420,7 @@ marketplace:
     description: 用于在 bug 修复补丁之后验证所有规格产物是否一致
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-bugfix-verify
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -432,7 +432,7 @@ marketplace:
     description: "获取云端管理平台代码模板。从远程 COS 存储下载 AutoPai 代码模板压缩包，解压到当前工作目录，并删除临时 zip 文件。用于快速初始化项目代码骨架。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-code-template
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -444,7 +444,7 @@ marketplace:
     description: "使用 Playwright 生成并运行端到端测试。创建测试路径、运行测试、捕获屏幕截图/视频/跟踪，并上传产物。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-e2e
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -456,7 +456,7 @@ marketplace:
     description: "在需要把一个功能从需求描述一路跑到实现、且希望每步停下来人工确认时使用。按 specify → plan → tasks → implement 顺序串联四个核心命令，每步产物落盘后暂停等待确认再进下一步，支持中断后续跑。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-flow
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -468,7 +468,7 @@ marketplace:
     description: "在当前项目做完整 tc 初始化（项目骨架 + tc-ext-* 扩展 + constitution + tc-* 技能）。当用户想初始化项目、搭建规范驱动开发骨架、或装配 tc 技能时使用。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-init
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -480,7 +480,7 @@ marketplace:
     description: "在SDD项目需要加载或应用宪章时使用。当输入参数为空时，确定性地将默认宪章拷入且注入技术规约指针；当输入参数不为空时，转为调用 tc.constitution 宪章技能来映射加载宪章。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-load-constitution
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -492,7 +492,7 @@ marketplace:
     description: "小功能快速开发，可只给一句需求直接开干。已有 spec.md 时基于它生成精简的「计划+任务」合并文件 plan.md；spec.md 缺失且提供了需求时，自动调用 tc-specify 创建 spec 后继续；随后全自动逐任务执行（强制 TDD）。适用于无需分阶段评审的小功能；复杂功能仍用 /tc-flow 或原生四命令。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-quick
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -504,7 +504,7 @@ marketplace:
     description: "在审查包含嵌入式 UI 原型、流程图图像或审批流图表的 `.docx` 需求文档时使用，特别是在 Codex 必须评估需求质量、确定文本是否充分描述了每个图像、补充缺失或薄弱的解释，并交付修改后的 `.docx` 副本和书面审查报告时。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-req-preprocess
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -516,7 +516,7 @@ marketplace:
     description: "在将包含嵌入式 UI 原型、流程图图像和表格的 `.docx` 需求文档转换为下游工具和 LLM 可以直接消费的干净 Markdown 文档时使用。它按顺序提取结构、表格和图像，编写一个自包含的 `.md` 以及一个资源文件夹，并为每个图像附加结构化说明，以便读者无需打开原始文件即可理解。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-req-preprocess-md
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -528,7 +528,7 @@ marketplace:
     description: "在完成任务、实现重大功能或合并之前使用，以验证工作是否符合要求"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-review
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -540,7 +540,7 @@ marketplace:
     description: "在遇到任何 bug、测试失败或意外行为时，以及在提出修复方案之前使用"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-systematic-debugging
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -552,7 +552,7 @@ marketplace:
     description: "在编写实现代码之前，用于实现任何功能或进行 bug 修复时使用"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-tdd
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -564,7 +564,7 @@ marketplace:
     description: "回收当前项目里 tc init 装入的产物（tc-* 技能、tkit 扩展、constitution 副本）。当用户想卸载 tc、清理 tc init 产物或移除规范驱动骨架时使用。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-uninstall
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -576,7 +576,7 @@ marketplace:
     description: "需要按项目自定义流程串联多个 tc skill、speckit command、extension command、shell 脚本或人工 gate 时使用。读取 .specify/tc/workflows/*.yml，按阶段检查 requires/produces、处理 gate 和失败策略；只做编排，不重新实现阶段逻辑。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-workflow
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -588,7 +588,7 @@ marketplace:
     description: "需要为已批准的 spec.md 生成详细实现计划时使用。先做范围检查和文件结构映射，再逐任务拆解（含 TDD 步骤模式），产出合并的 plan.md（整合计划 + 任务步骤）。是 /speckit.plan + /speckit.tasks 的增强替代选项；TDD 步骤模式与 /tc-tdd 对齐。"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-writing-plans
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
@@ -600,7 +600,7 @@ marketplace:
     description: "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
     source: https://github.com/hanshuang-ai/apm-sf.git
     subdir: packages/tc-writing-skills
-    ref: v1.0.0
+    ref: main
     source_key: tkit
     source_label: TKit
     tags:
