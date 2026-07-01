@@ -14,7 +14,7 @@ marketplace:
     description: "TAC commit-reviewer agent — TODO 填充职责说明。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/commit-reviewer
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -25,7 +25,7 @@ marketplace:
     description: "TAC gate-runner agent — TODO 填充职责说明。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/gate-runner
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -36,7 +36,7 @@ marketplace:
     description: "TAC plan-author agent — TODO 填充职责说明。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/plan-author
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -47,7 +47,7 @@ marketplace:
     description: "TAC spec-writer agent — TODO 填充职责说明。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/spec-writer
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -58,7 +58,7 @@ marketplace:
     description: "Bug 修复入口，按现象/预期/复现步骤收集最小输入后执行分诊、复现、根因分析、TDD 修复与验证。触发：用户说'修复''bug''崩溃''crash''报错''异常''不生效''闪退''ANR''无响应''白屏''黑屏''不显示''显示异常''错位''溢出''重叠''丢失''消失''卡住''卡顿''失败'等；不负责维护 BUG 文件或经验沉淀文件。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-bugfix
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -69,7 +69,7 @@ marketplace:
     description: "提交前自检与送审编排：校验变更范围、提交级质量门禁、暂存内容、八字段 commit message、commit 与 Gerrit refs/for 送审。当用户说'提交代码''帮我提交''准备 commit''写提交信息''commit message''八字段''git add''git commit''push''送审''Gerrit''refs/for''提交前检查'时触发。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-commit-review
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -80,7 +80,7 @@ marketplace:
     description: "引导用户在 15-30 分钟内创建一个可用的 SKILL.md。当用户说'我想写 skill'/'帮我新建 skill'/'把这段流程封装成 skill'/'做个能自动 X 的 skill'/'怎么做 skill'时触发；走四步流程（场景定义 → frontmatter 设计 → 正文五要素 → 自查清单），产出可在任何兼容 Agent Skills 标准的环境下使用的 skill 目录。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-create-skill
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -91,7 +91,7 @@ marketplace:
     description: "业务与领域设计独立入口：基于 PRD 派生项目级 baseline 的业务与领域设计文档（限界上下文 / 聚合根 / 领域事件 / 业务规则 / Ubiquitous Language / 各 BC 能力清单 / 场景-行为联动表）。触发：用户提供 PRD/需求文档并要求'做业务领域设计''出 DDD 设计''拆限界上下文''聚合根建模''业务规则梳理'等单阶段任务。若用户同时要 HLD/DLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-domain-design
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -102,7 +102,7 @@ marketplace:
     description: "引导经验沉淀到正确载体（Issues/Memory/宪章），在 Feature 完成或踩坑后触发。所在环节：⑧ 经验沉淀。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-experience-distill
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -113,7 +113,7 @@ marketplace:
     description: "Feature 开发入口，强制按七字段需求模板收集结构化输入（含验收标准字段质量校验）后启动 Speckit 流程。触发：用户说'新增''添加''实现''开发''创建''修改行为''重构''优化''调整''对齐''替换''迁移''接入''对接''改为''改成''换成''支持''升级''适配'等。所在环节：① 需求输入。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-feature
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -124,7 +124,7 @@ marketplace:
     description: "PRD/需求文档分析入口，按四阶段派生项目级 baseline 设计文档：业务与领域设计 → 概要设计 → 详细设计 → 准出标准设计。触发：用户提供 PRD/需求文档并要求'做设计''出 HLD''出 DLD''出概要设计''出详细设计''出验收标准''做整体设计''PRD 转设计''PRD 分析'等。所在环节：① 需求输入（PRD 维度）。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-feature-analysis
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -135,7 +135,7 @@ marketplace:
     description: "为项目配置主宪章与专项宪章，建立'1 主宪章 + N 专项宪章'的 AI 编程治理结构"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-governance-constitution
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -146,7 +146,7 @@ marketplace:
     description: "生成或审校 PROJECT.md，把项目宪章体系配置为所有 AI 编程工具的统一入口"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-governance-project
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -157,7 +157,7 @@ marketplace:
     description: "软件概要设计独立入口：基于业务与领域设计 baseline 派生概要设计文档（技术栈选型 / 架构风格 / 模块清单 / 模块间依赖 / 外部依赖 / 跨切面策略 / NFR 达成路径）。触发：用户提供已落盘的业务与领域设计 baseline 并要求'出概要设计''出 HLD''做架构设计''拆模块''选技术栈'等单阶段任务。若用户同时要业务领域/DLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-hld
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -168,7 +168,7 @@ marketplace:
     description: "软件详细设计独立入口：基于概要设计 baseline 派生详细设计文档（模块详述 / 对外接口契约 / 状态机 / 时序图 / 数据模型 / 并发与一致性 / 可观测性埋点）。触发：用户提供已落盘的概要设计 baseline 并要求'出详细设计''出 LLD''做接口契约''画状态机''出时序图''出数据模型'等单阶段任务。若用户同时要业务领域/HLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-lld
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -179,7 +179,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-maestro-case
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -190,7 +190,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-maestro-run
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -201,7 +201,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-nexus-dependency
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -212,7 +212,7 @@ marketplace:
     description: "软件准出审核：当用户要求在编码完成、发版前、验收前，依据已有准出标准和代码变更、构建结果、测试结果、CI、人工验收记录判断准出/有条件准出/不准出时使用。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-release-gate-check
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -223,7 +223,7 @@ marketplace:
     description: "软件准出标准生成：当用户要求基于业务领域设计、概要设计、详细设计、需求文档、宪章、实现代码或测试策略生成项目/系统级、版本发布级、需求/功能级三级准出标准时使用。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-release-gate-generate
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -234,7 +234,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-requirement-decomposition
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -245,7 +245,7 @@ marketplace:
     description: "Speckit 流程的 Review Gate 执行器，按项目专项规范审查 spec.md / plan.md 并输出二值闸门结论。触发：Speckit 流程中 Review Gate 节点。所在环节：② 规格化 / ③ 技术设计。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-spec-review
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -256,7 +256,7 @@ marketplace:
     description: "记录/查询/清理跨工具可见的团队级项目临时状态（模块阶段、接口迁移、发布节奏）。**仅记录满足 4 项硬条件的事实**：跨多人 + 持续 >1 天 + 可过期（≤30 天）+ 现有载体未覆盖。**仅 4 个分类**：模块阶段/接口迁移/发布节奏/其他。**禁止内容**：个人偏好、长期规则、已发生踩坑、单 Feature 进度、可代码/git 查、凭证敏感信息。触发：用户说'标记 X 状态''记一下当前 X''登记冻结期''查看团队状态''清理过期状态'等。所在环节：跨环节，任何阶段都可触发。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-team-status
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -267,7 +267,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-testcase-plan
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -278,7 +278,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ui-mastergo
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -290,7 +290,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ui-mastergo-test
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -302,7 +302,7 @@ marketplace:
     description: ">"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ux-mastergo
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:
@@ -313,7 +313,7 @@ marketplace:
     description: "TAC tdd-implementer agent — TODO 填充职责说明。"
     source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tdd-implementer
-    ref: v1.3.0
+    ref: v1.4.1
     source_key: tac-skills
     source_label: TAC Skills
     tags:

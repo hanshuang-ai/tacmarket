@@ -11,7 +11,7 @@
       "label": "TAC Skills",
       "description": "TAC team skills and agents",
       "repo": "hanshuang-ai/tac-skills",
-      "ref": "v1.3.0"
+      "ref": "v1.4.1"
     },
     {
       "key": "tkit",
@@ -37,7 +37,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/commit-reviewer",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -56,7 +56,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/gate-runner",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -75,7 +75,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/plan-author",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -94,7 +94,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/spec-writer",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -113,7 +113,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-bugfix",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -132,7 +132,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-commit-review",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -151,7 +151,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-create-skill",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -170,7 +170,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-domain-design",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -189,7 +189,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-experience-distill",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -208,7 +208,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-feature",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -227,7 +227,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-feature-analysis",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -246,7 +246,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-governance-constitution",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -265,7 +265,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-governance-project",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -284,7 +284,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-hld",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -303,7 +303,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-lld",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -322,7 +322,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-maestro-case",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -341,7 +341,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-maestro-run",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -360,7 +360,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-nexus-dependency",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -379,7 +379,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-release-gate-check",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -398,7 +398,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-release-gate-generate",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -417,7 +417,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-requirement-decomposition",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -436,7 +436,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-spec-review",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -455,7 +455,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-team-status",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -474,7 +474,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-testcase-plan",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -494,7 +494,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-ui-mastergo",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -514,7 +514,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-ui-mastergo-test",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -533,7 +533,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tac-ux-mastergo",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
@@ -552,7 +552,7 @@
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
         "path": "packages/tdd-implementer",
-        "ref": "v1.3.0",
+        "ref": "v1.4.1",
         "sha": "714e50dccf3bd1fa307aa8947d95dabe2d7e7e6d"
       }
     },
