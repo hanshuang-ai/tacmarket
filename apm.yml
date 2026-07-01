@@ -1,269 +1,242 @@
 name: tac
 version: 0.1.0
-description: A short description of what this repo offers
+description: TAC APM marketplace
 marketplace:
   owner:
     name: hanshuang-ai
     url: https://github.com/hanshuang-ai
   build:
-    tagPattern: v{version}
+    tagPattern: "v{version}"
   outputs:
     claude: {}
   packages:
+  - name: frontend-code-expert
+    description: "Claude agent for frontend code implementation, review, refactor, and debugging."
+    source: https://github.com/hanshuang-ai/tac-skills.git
+    subdir: packages/frontend-code-expert
+    ref: v1.3.0
+    tags:
+    - claude
+    - agents
+    - tac
+    - frontend
   - name: tac-bugfix
-    description: 'TAC Claude Code skill: tac-bugfix'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-bugfix
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-bugfix
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-commit-review
-    description: 'TAC Claude Code skill: tac-commit-review'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-commit-review
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-commit-review
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-create-skill
-    description: 'TAC Claude Code skill: tac-create-skill'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-create-skill
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-create-skill
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-domain-design
-    description: 'TAC Claude Code skill: tac-domain-design'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-domain-design
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-domain-design
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-experience-distill
-    description: 'TAC Claude Code skill: tac-experience-distill'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-experience-distill
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-experience-distill
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-feature
-    description: 'TAC Claude Code skill: tac-feature'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-feature
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-feature
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-feature-analysis
-    description: 'TAC Claude Code skill: tac-feature-analysis'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-feature-analysis
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-feature-analysis
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-governance-constitution
-    description: 'TAC Claude Code skill: tac-governance-constitution'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-governance-constitution
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-governance-constitution
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-governance-project
-    description: 'TAC Claude Code skill: tac-governance-project'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-governance-project
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-governance-project
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-hld
-    description: 'TAC Claude Code skill: tac-hld'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-hld
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-hld
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-lld
-    description: 'TAC Claude Code skill: tac-lld'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-lld
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-lld
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-maestro-case
-    description: 'TAC Claude Code skill: tac-maestro-case'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-maestro-case
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-maestro-case
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-maestro-run
-    description: 'TAC Claude Code skill: tac-maestro-run'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-maestro-run
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-maestro-run
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-nexus-dependency
-    description: 'TAC Claude Code skill: tac-nexus-dependency'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-nexus-dependency
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-nexus-dependency
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-release-gate-check
-    description: 'TAC Claude Code skill: tac-release-gate-check'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-release-gate-check
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-release-gate-check
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-release-gate-generate
-    description: 'TAC Claude Code skill: tac-release-gate-generate'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-release-gate-generate
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-release-gate-generate
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-requirement-decomposition
-    description: 'TAC Claude Code skill: tac-requirement-decomposition'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-requirement-decomposition
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-requirement-decomposition
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-spec-review
-    description: 'TAC Claude Code skill: tac-spec-review'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-spec-review
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-spec-review
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-team-status
-    description: 'TAC Claude Code skill: tac-team-status'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-team-status
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-team-status
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-testcase-plan
-    description: 'TAC Claude Code skill: tac-testcase-plan'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-testcase-plan
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-testcase-plan
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
   - name: tac-ui-mastergo
-    description: 'TAC Claude Code skill: tac-ui-mastergo'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-ui-mastergo
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ui-mastergo
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
+    - design
   - name: tac-ui-mastergo-test
-    description: 'TAC Claude Code skill: tac-ui-mastergo-test'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-ui-mastergo-test
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ui-mastergo-test
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
+    - design
   - name: tac-ux-mastergo
-    description: 'TAC Claude Code skill: tac-ux-mastergo'
-    source: hanshuang-ai/tac-skills
+    description: TAC skill package for tac-ux-mastergo
+    source: https://github.com/hanshuang-ai/tac-skills.git
     subdir: packages/tac-ux-mastergo
-    ref: v1.1.0
+    ref: v1.3.0
     tags:
     - claude
     - skills
     - tac
-  - name: tac-dep-base
-    description: Shared base skill for dependency tests
-    source: hanshuang-ai/tac-skills
-    subdir: packages/tac-dep-base
-    ref: v1.2.1
+  - name: ui-beautifier
+    description: "Claude agent for frontend UI beautification, visual polish, CSS refinement, and micro-interactions."
+    source: https://github.com/hanshuang-ai/tac-skills.git
+    subdir: packages/ui-beautifier
+    ref: v1.3.0
     tags:
     - claude
-    - skills
+    - agents
     - tac
-    - dependency-test
-  - name: tac-dep-feature-a
-    description: Feature A depends on tac-dep-base v1.2.0
-    source: hanshuang-ai/tac-skills
-    subdir: packages/tac-dep-feature-a
-    ref: v1.2.0
-    tags:
-    - claude
-    - skills
-    - tac
-    - dependency-test
-  - name: tac-dep-feature-b
-    description: Feature B depends on tac-dep-base v1.2.0
-    source: hanshuang-ai/tac-skills
-    subdir: packages/tac-dep-feature-b
-    ref: v1.2.0
-    tags:
-    - claude
-    - skills
-    - tac
-    - dependency-test
-  - name: tac-dep-conflict-a
-    description: Conflict A depends on tac-dep-base v1.2.0
-    source: hanshuang-ai/tac-skills
-    subdir: packages/tac-dep-conflict-a
-    ref: v1.2.0
-    tags:
-    - claude
-    - skills
-    - tac
-    - dependency-test
-  - name: tac-dep-conflict-b
-    description: Conflict B depends on tac-dep-base v1.2.1
-    source: hanshuang-ai/tac-skills
-    subdir: packages/tac-dep-conflict-b
-    ref: v1.2.0
-    tags:
-    - claude
-    - skills
-    - tac
-    - dependency-test
+    - frontend
+    - design
