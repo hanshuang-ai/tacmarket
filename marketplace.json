@@ -1,0 +1,439 @@
+{
+  "name": "tac",
+  "owner": {
+    "name": "hanshuang-ai",
+    "url": "https://github.com/hanshuang-ai"
+  },
+  "plugins": [
+    {
+      "name": "frontend-code-expert",
+      "description": "Claude agent for frontend code implementation, review, refactor, and debugging.",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "agents",
+        "tac",
+        "frontend"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/frontend-code-expert",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-bugfix",
+      "description": "TAC skill package for tac-bugfix",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-bugfix",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-commit-review",
+      "description": "TAC skill package for tac-commit-review",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-commit-review",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-create-skill",
+      "description": "TAC skill package for tac-create-skill",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-create-skill",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-domain-design",
+      "description": "TAC skill package for tac-domain-design",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-domain-design",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-experience-distill",
+      "description": "TAC skill package for tac-experience-distill",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-experience-distill",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-feature",
+      "description": "TAC skill package for tac-feature",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-feature",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-feature-analysis",
+      "description": "TAC skill package for tac-feature-analysis",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-feature-analysis",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-governance-constitution",
+      "description": "TAC skill package for tac-governance-constitution",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-governance-constitution",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-governance-project",
+      "description": "TAC skill package for tac-governance-project",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-governance-project",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-hld",
+      "description": "TAC skill package for tac-hld",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-hld",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-lld",
+      "description": "TAC skill package for tac-lld",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-lld",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-maestro-case",
+      "description": "TAC skill package for tac-maestro-case",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-maestro-case",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-maestro-run",
+      "description": "TAC skill package for tac-maestro-run",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-maestro-run",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-nexus-dependency",
+      "description": "TAC skill package for tac-nexus-dependency",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-nexus-dependency",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-release-gate-check",
+      "description": "TAC skill package for tac-release-gate-check",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-release-gate-check",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-release-gate-generate",
+      "description": "TAC skill package for tac-release-gate-generate",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-release-gate-generate",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-requirement-decomposition",
+      "description": "TAC skill package for tac-requirement-decomposition",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-requirement-decomposition",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-spec-review",
+      "description": "TAC skill package for tac-spec-review",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-spec-review",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-team-status",
+      "description": "TAC skill package for tac-team-status",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-team-status",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-testcase-plan",
+      "description": "TAC skill package for tac-testcase-plan",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-testcase-plan",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-ui-mastergo",
+      "description": "TAC skill package for tac-ui-mastergo",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "design"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ui-mastergo",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-ui-mastergo-test",
+      "description": "TAC skill package for tac-ui-mastergo-test",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "design"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ui-mastergo-test",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "tac-ux-mastergo",
+      "description": "TAC skill package for tac-ux-mastergo",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ux-mastergo",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    },
+    {
+      "name": "ui-beautifier",
+      "description": "Claude agent for frontend UI beautification, visual polish, CSS refinement, and micro-interactions.",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "agents",
+        "tac",
+        "frontend",
+        "design"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/ui-beautifier",
+        "ref": "v1.3.0",
+        "sha": "42dc688840b1fc15630cbcc324eebf20d222eb3a"
+      }
+    }
+  ]
+}
