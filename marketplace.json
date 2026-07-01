@@ -1,13 +1,13 @@
 {
   "name": "tac",
   "owner": {
-    "name": "benliu",
-    "url": "https://github.com/benliu"
+    "name": "hanshuang-ai",
+    "url": "https://github.com/hanshuang-ai"
   },
   "plugins": [
     {
-      "name": "tac-skills",
-      "description": "APM project for apm",
+      "name": "tac-bugfix",
+      "description": "TAC Claude Code skill: tac-bugfix",
       "version": "1.0.0",
       "tags": [
         "claude",
@@ -15,10 +15,385 @@
         "tac"
       ],
       "source": {
-        "source": "github",
-        "repo": "hanshuang-ai/tac-skills",
-        "ref": "v1.0.1",
-        "sha": "ee99fc149e588eacced2c8cc748bf8df9231a48e"
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-bugfix",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-commit-review",
+      "description": "TAC Claude Code skill: tac-commit-review",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-commit-review",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-create-skill",
+      "description": "TAC Claude Code skill: tac-create-skill",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-create-skill",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-domain-design",
+      "description": "TAC Claude Code skill: tac-domain-design",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-domain-design",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-experience-distill",
+      "description": "TAC Claude Code skill: tac-experience-distill",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-experience-distill",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-feature",
+      "description": "TAC Claude Code skill: tac-feature",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-feature",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-feature-analysis",
+      "description": "TAC Claude Code skill: tac-feature-analysis",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-feature-analysis",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-governance-constitution",
+      "description": "TAC Claude Code skill: tac-governance-constitution",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-governance-constitution",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-governance-project",
+      "description": "TAC Claude Code skill: tac-governance-project",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-governance-project",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-hld",
+      "description": "TAC Claude Code skill: tac-hld",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-hld",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-lld",
+      "description": "TAC Claude Code skill: tac-lld",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-lld",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-maestro-case",
+      "description": "TAC Claude Code skill: tac-maestro-case",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-maestro-case",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-maestro-run",
+      "description": "TAC Claude Code skill: tac-maestro-run",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-maestro-run",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-nexus-dependency",
+      "description": "TAC Claude Code skill: tac-nexus-dependency",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-nexus-dependency",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-release-gate-check",
+      "description": "TAC Claude Code skill: tac-release-gate-check",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-release-gate-check",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-release-gate-generate",
+      "description": "TAC Claude Code skill: tac-release-gate-generate",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-release-gate-generate",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-requirement-decomposition",
+      "description": "TAC Claude Code skill: tac-requirement-decomposition",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-requirement-decomposition",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-spec-review",
+      "description": "TAC Claude Code skill: tac-spec-review",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-spec-review",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-team-status",
+      "description": "TAC Claude Code skill: tac-team-status",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-team-status",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-testcase-plan",
+      "description": "TAC Claude Code skill: tac-testcase-plan",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-testcase-plan",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-ui-mastergo",
+      "description": "TAC Claude Code skill: tac-ui-mastergo",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ui-mastergo",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-ui-mastergo-test",
+      "description": "TAC Claude Code skill: tac-ui-mastergo-test",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ui-mastergo-test",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
+      }
+    },
+    {
+      "name": "tac-ux-mastergo",
+      "description": "TAC Claude Code skill: tac-ux-mastergo",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-ux-mastergo",
+        "ref": "v1.1.0",
+        "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
       }
     }
   ]
