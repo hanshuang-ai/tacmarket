@@ -217,3 +217,53 @@ marketplace:
     - claude
     - skills
     - tac
+  - name: tac-dep-base
+    description: Shared base skill for dependency tests
+    source: hanshuang-ai/tac-skills
+    subdir: packages/tac-dep-base
+    ref: v1.2.1
+    tags:
+    - claude
+    - skills
+    - tac
+    - dependency-test
+  - name: tac-dep-feature-a
+    description: Feature A depends on tac-dep-base v1.2.0
+    source: hanshuang-ai/tac-skills
+    subdir: packages/tac-dep-feature-a
+    ref: v1.2.0
+    tags:
+    - claude
+    - skills
+    - tac
+    - dependency-test
+  - name: tac-dep-feature-b
+    description: Feature B depends on tac-dep-base v1.2.0
+    source: hanshuang-ai/tac-skills
+    subdir: packages/tac-dep-feature-b
+    ref: v1.2.0
+    tags:
+    - claude
+    - skills
+    - tac
+    - dependency-test
+  - name: tac-dep-conflict-a
+    description: Conflict A depends on tac-dep-base v1.2.0
+    source: hanshuang-ai/tac-skills
+    subdir: packages/tac-dep-conflict-a
+    ref: v1.2.0
+    tags:
+    - claude
+    - skills
+    - tac
+    - dependency-test
+  - name: tac-dep-conflict-b
+    description: Conflict B depends on tac-dep-base v1.2.1
+    source: hanshuang-ai/tac-skills
+    subdir: packages/tac-dep-conflict-b
+    ref: v1.2.0
+    tags:
+    - claude
+    - skills
+    - tac
+    - dependency-test

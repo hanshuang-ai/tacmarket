@@ -395,6 +395,96 @@
         "ref": "v1.1.0",
         "sha": "effa3030953769e2738ff44adc4cefeacbc829ca"
       }
+    },
+    {
+      "name": "tac-dep-base",
+      "description": "Shared base skill for dependency tests",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "dependency-test"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-dep-base",
+        "ref": "v1.2.1",
+        "sha": "9ed385316898ee41af872a0ed6ef8cd5b3ec7e92"
+      }
+    },
+    {
+      "name": "tac-dep-feature-a",
+      "description": "Feature A depends on tac-dep-base v1.2.0",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "dependency-test"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-dep-feature-a",
+        "ref": "v1.2.0",
+        "sha": "2bd34f904e53d673500c8bd73bd58aab4364953e"
+      }
+    },
+    {
+      "name": "tac-dep-feature-b",
+      "description": "Feature B depends on tac-dep-base v1.2.0",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "dependency-test"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-dep-feature-b",
+        "ref": "v1.2.0",
+        "sha": "2bd34f904e53d673500c8bd73bd58aab4364953e"
+      }
+    },
+    {
+      "name": "tac-dep-conflict-a",
+      "description": "Conflict A depends on tac-dep-base v1.2.0",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "dependency-test"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-dep-conflict-a",
+        "ref": "v1.2.0",
+        "sha": "2bd34f904e53d673500c8bd73bd58aab4364953e"
+      }
+    },
+    {
+      "name": "tac-dep-conflict-b",
+      "description": "Conflict B depends on tac-dep-base v1.2.1",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac",
+        "dependency-test"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "hanshuang-ai/tac-skills",
+        "path": "packages/tac-dep-conflict-b",
+        "ref": "v1.2.0",
+        "sha": "2bd34f904e53d673500c8bd73bd58aab4364953e"
+      }
     }
   ]
 }
