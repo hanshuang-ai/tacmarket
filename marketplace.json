@@ -1,0 +1,25 @@
+{
+  "name": "tac",
+  "owner": {
+    "name": "benliu",
+    "url": "https://github.com/benliu"
+  },
+  "plugins": [
+    {
+      "name": "tac-skills",
+      "description": "APM project for apm",
+      "version": "1.0.0",
+      "tags": [
+        "claude",
+        "skills",
+        "tac"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "hanshuang-ai/tac-skills",
+        "ref": "v1.0.1",
+        "sha": "ee99fc149e588eacced2c8cc748bf8df9231a48e"
+      }
+    }
+  ]
+}
