@@ -1,9 +1,26 @@
 {
   "name": "tac",
+  "description": "TAC unified APM marketplace",
   "owner": {
     "name": "hanshuang-ai",
     "url": "https://github.com/hanshuang-ai"
   },
+  "sources": [
+    {
+      "key": "tac-skills",
+      "label": "TAC Skills",
+      "description": "TAC team skills and agents",
+      "repo": "hanshuang-ai/tac-skills",
+      "ref": "v1.3.0"
+    },
+    {
+      "key": "tkit",
+      "label": "TKit",
+      "description": "TKit spec workflow skills",
+      "repo": "hanshuang-ai/apm-sf",
+      "ref": "v1.0.0"
+    }
+  ],
   "plugins": [
     {
       "name": "commit-reviewer",
@@ -14,6 +31,8 @@
         "agents",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -31,6 +50,8 @@
         "agents",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -48,6 +69,8 @@
         "agents",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -65,6 +88,8 @@
         "agents",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -82,6 +107,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -99,6 +126,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -116,6 +145,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -133,6 +164,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -150,6 +183,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -167,6 +202,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -184,6 +221,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -201,6 +240,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -218,6 +259,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -235,6 +278,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -252,6 +297,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -269,6 +316,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -286,6 +335,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -303,6 +354,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -320,6 +373,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -337,6 +392,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -354,6 +411,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -371,6 +430,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -388,6 +449,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -405,6 +468,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -423,6 +488,8 @@
         "tac-skills",
         "design"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -441,6 +508,8 @@
         "tac-skills",
         "design"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -458,6 +527,8 @@
         "skills",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -475,6 +546,8 @@
         "agents",
         "tac-skills"
       ],
+      "sourceKey": "tac-skills",
+      "sourceLabel": "TAC Skills",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/tac-skills",
@@ -490,13 +563,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brainstorm",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -507,13 +583,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-bootstrap",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -524,13 +603,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-migrate",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -541,13 +623,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-scan",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -558,13 +643,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-validate",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -575,13 +663,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-patch",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -592,13 +683,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-report",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -609,13 +703,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-switch",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -626,13 +723,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-verify",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -643,13 +743,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-code-template",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -660,13 +763,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-e2e",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -677,13 +783,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-flow",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -694,13 +803,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-init",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -711,13 +823,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-load-constitution",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -728,13 +843,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-quick",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -745,13 +863,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -762,13 +883,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess-md",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -779,13 +903,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-review",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -796,13 +923,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-systematic-debugging",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -813,13 +943,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-tdd",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -830,13 +963,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-uninstall",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -847,13 +983,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-workflow",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -864,13 +1003,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-plans",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     },
@@ -881,13 +1023,16 @@
       "tags": [
         "claude",
         "skills",
-        "tkit"
+        "tkit",
+        "spec-kit"
       ],
+      "sourceKey": "tkit",
+      "sourceLabel": "TKit",
       "source": {
         "source": "git-subdir",
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-skills",
-        "ref": "main",
+        "ref": "v1.0.0",
         "sha": "43e2cea3b77819bea206a0f4b1035eeb4fbc6134"
       }
     }
