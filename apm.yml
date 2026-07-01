@@ -25,10 +25,10 @@ marketplace:
   #   apm pack --marketplace=claude,codex --json | jq -r '.marketplace.outputs[].path'
 
   packages:
-    - name: example-package
-      description: Human-readable description of the package
-      source: benliu/example-package
-      version: "^1.0.0"
+  - name: example-package
+    description: Human-readable description of the package
+    source: benliu/example-package
+    version: "^1.0.0"
       # Required when outputs includes codex:
       # category: Productivity
       # Optional overrides:
@@ -46,3 +46,10 @@ marketplace:
     #   description: A locally vendored tool
     #   version: 0.1.0
     #   # tag_pattern: "{name}-v{version}"
+  - name: tac-skills
+    source: hanshuang-ai/tac-skills
+    ref: v1.0.1
+    tags:
+    - claude
+    - skills
+    - tac
