@@ -559,7 +559,7 @@
     {
       "name": "tc-brainstorm",
       "description": "需要深度脑暴设计一个功能时使用。探索项目上下文、逐步澄清需求、提出 2-3 种方案并附带权衡对比、逐节审批后写出 spec-kit 标准的 spec.md。批准后交给 /tc-quick 快速计划并实现。",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "tags": [
         "claude",
         "skills",
@@ -573,7 +573,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brainstorm",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -593,7 +593,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-bootstrap",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -613,7 +613,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-migrate",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -633,7 +633,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-scan",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -653,7 +653,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-brownfield-validate",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -673,7 +673,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-patch",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -693,7 +693,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-report",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -713,7 +713,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-switch",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -733,7 +733,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-bugfix-verify",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -753,7 +753,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-code-template",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -773,7 +773,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-e2e",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -793,7 +793,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-flow",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -813,7 +813,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-init",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -833,7 +833,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-load-constitution",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -853,7 +853,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-quick",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -873,7 +873,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -893,7 +893,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-req-preprocess-md",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -913,7 +913,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-review",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -933,7 +933,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-systematic-debugging",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -953,7 +953,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-tdd",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -973,7 +973,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-uninstall",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -993,7 +993,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-workflow",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -1013,7 +1013,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-plans",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     },
     {
@@ -1033,7 +1033,7 @@
         "url": "hanshuang-ai/apm-sf",
         "path": "packages/tc-writing-skills",
         "ref": "main",
-        "sha": "c30809d62adda6c0fd4207f836cbfa1c84734207"
+        "sha": "0eaee2ec6f8fd7a5bad9c5a8c4500366c6d0f01c"
       }
     }
   ]
